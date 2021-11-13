@@ -8,6 +8,7 @@
 #include <iostream>
 #include "string.h"
 #include "sstream"
+#include "bitset"
 
 using namespace std;
 
@@ -22,14 +23,6 @@ string XOR(string firstInput, string secondInput){
             result.push_back('1');
     }
     return result;
-}
-
-
-
-string expansion(string rightDataSide){
-    
-    return {rightDataSide[31],rightDataSide[0],rightDataSide[1],rightDataSide[2],rightDataSide[3],rightDataSide[4],rightDataSide[3],rightDataSide[4],rightDataSide[5],rightDataSide[6],rightDataSide[7],rightDataSide[8],rightDataSide[7],rightDataSide[8],rightDataSide[9],rightDataSide[10],rightDataSide[11],rightDataSide[12],rightDataSide[11],rightDataSide[12],rightDataSide[13],rightDataSide[14],rightDataSide[15],rightDataSide[16],rightDataSide[15],rightDataSide[16],rightDataSide[17],rightDataSide[18],rightDataSide[19],rightDataSide[20],rightDataSide[19],rightDataSide[20],rightDataSide[21],rightDataSide[22],rightDataSide[23],rightDataSide[24],rightDataSide[23],rightDataSide[24],rightDataSide[25],rightDataSide[26],rightDataSide[27],rightDataSide[28],rightDataSide[27],rightDataSide[28],rightDataSide[29],rightDataSide[30],rightDataSide[31],rightDataSide[0]};
-    
 }
 
 string hexToBinary(string hex){
@@ -170,6 +163,11 @@ string decimalToBinary(int decimal){
     return binary;
 }
 
+string expansion(string rightDataSide){
+    
+    return {rightDataSide[31],rightDataSide[0],rightDataSide[1],rightDataSide[2],rightDataSide[3],rightDataSide[4],rightDataSide[3],rightDataSide[4],rightDataSide[5],rightDataSide[6],rightDataSide[7],rightDataSide[8],rightDataSide[7],rightDataSide[8],rightDataSide[9],rightDataSide[10],rightDataSide[11],rightDataSide[12],rightDataSide[11],rightDataSide[12],rightDataSide[13],rightDataSide[14],rightDataSide[15],rightDataSide[16],rightDataSide[15],rightDataSide[16],rightDataSide[17],rightDataSide[18],rightDataSide[19],rightDataSide[20],rightDataSide[19],rightDataSide[20],rightDataSide[21],rightDataSide[22],rightDataSide[23],rightDataSide[24],rightDataSide[23],rightDataSide[24],rightDataSide[25],rightDataSide[26],rightDataSide[27],rightDataSide[28],rightDataSide[27],rightDataSide[28],rightDataSide[29],rightDataSide[30],rightDataSide[31],rightDataSide[0]};
+    
+}
 
 string initialPermutation(string data){
     
