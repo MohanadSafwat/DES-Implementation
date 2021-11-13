@@ -94,7 +94,6 @@ string binaryToHex(string binary){
     
     string hexSum;
     
-//    string binary_str("11001111");
     bitset<64> set(binary);
     stringstream res;
     res << hex << uppercase << set.to_ulong();
